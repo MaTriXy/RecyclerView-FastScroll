@@ -19,10 +19,16 @@
     <declare-styleable name="FastScrollRecyclerView">
         <attr name="fastScrollThumbColor" format="reference|color" />
         <attr name="fastScrollThumbInactiveColor" format="reference|color" />
+        <attr name="fastScrollThumbWidth" format="reference|dimension" />
         <attr name="fastScrollTrackColor" format="reference|color" />
+        <attr name="fastScrollTrackWidth" format="reference|dimension" />
         <attr name="fastScrollPopupBgColor" format="reference|color" />
         <attr name="fastScrollPopupTextColor" format="reference|color" />
         <attr name="fastScrollPopupTextSize" format="reference|dimension" />
+        <attr name="fastScrollPopupTextVerticalAlignmentMode" format="enum">
+            <enum name="text_bounds" value="0"/>
+            <enum name="font_metrics" value="1"/>
+        </attr>
         <attr name="fastScrollPopupBackgroundSize" format="reference|dimension" />
         <attr name="fastScrollPopupPosition" format="enum">
             <enum name="adjacent" value="0"/>
